@@ -1,0 +1,12 @@
+How to make your own haar cascade for image and video object classifier
+
+Steps:
+
+1. Collect "Negative" or "Background" images
+    -Any image will do, just make sure your object is not present in them! Get thousands
+2. Collect or create "positive" images
+    -Thousands of images of your object. Can make these based on one image, or manually
+3. Create a positive vector file by stitching together all positives
+    -This is done with OpenCV command
+4. Train cascade.
+    - Done with OpenCV command
